@@ -4,7 +4,7 @@
     .cabecalho-perfil{
         margin-top: 100px;
         display: flex;
-        justify-content: space-around;
+        justify-content: space-between;
         align-items: center;
         width: 90%;
         .img-perfil{
@@ -39,5 +39,39 @@
         width: 90%;
         border-bottom: solid 1px black;
 
+    }
+    .pet {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 90%;
+        padding-bottom: 90px;
+        &:not(:last-child){
+            border-bottom: solid 1px black;
+        }
+        .img-pet{
+            width: 450px;
+            aspect-ratio: 1;
+            border-radius: 50%;
+            border: solid 1px black;
+        }
+        .icon-pet{
+            opacity: 0.25;
+        }
+        .infos-pet{
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+            gap: 2.5rem;
+        
+            h1.nome-pet {
+                margin: 0;
+                font-size: 2.5rem;
+                font-weight: 700;
+            }   
+            .raca, .idade, .peso, .sexo{
+                font-size: 1.5rem;
+            }
+        }
     }
 }
