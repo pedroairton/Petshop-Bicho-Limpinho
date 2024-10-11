@@ -6,6 +6,7 @@ import LoginPage from "@/components/LoginPage.vue";
 import QuemSomosPage from "@/components/QuemSomosPage.vue";
 import CadastroPage from "@/components/CadastroPage.vue";
 import PerfilPage from "@/components/PerfilPage.vue";
+import PetPerfil from "@/components/PetPerfil.vue";
 
 const routes = [
     {
@@ -38,6 +39,11 @@ const routes = [
         name: 'PerfilPage',
         component: PerfilPage,
     },
+    {
+        path: '/perfil/perfil-pet',
+        name: 'PetPerfil',
+        component: PetPerfil,
+    }
 ]
 
 const router = createRouter({

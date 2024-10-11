@@ -19,6 +19,9 @@
                 <span class="idade">Idade</span>
                 <span class="peso">Peso</span>
                 <span class="sexo">Sexo</span>
+                <router-link to="/perfil/perfil-pet">
+                    <button class="btn-detalhes">Detalhes do pet</button>
+                </router-link>
             </div>
         </div>
         <div class="pet">
@@ -30,6 +33,9 @@
                 <span class="idade">Idade</span>
                 <span class="peso">Peso</span>
                 <span class="sexo">Sexo</span>
+                <router-link to="/perfil/perfil-pet">
+                    <button class="btn-detalhes">Detalhes do pet</button>
+                </router-link>
             </div>
         </div>
     </section>
