@@ -38,6 +38,14 @@ button{
     cursor: pointer;
 }
 
+input, textarea, select{
+    border: solid 2px #667;
+    transition: .3s;
+    &:focus-visible{
+        border: solid 2px $azul;
+    }
+}
+
 //footer
 footer{
     background-color: $azul;
@@ -75,4 +83,4 @@ footer{
     border-radius: 15px 15px 0 0;
 }
 
-@import './pages/index.scss', 'pages/login.scss', 'pages/quem-somos.scss', 'pages/perfil', 'pages/perfil-pet'
+@import './pages/index.scss', 'pages/login.scss', 'pages/quem-somos.scss', 'pages/perfil', 'pages/perfil-pet', 'pages/agendamento'

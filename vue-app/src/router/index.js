@@ -7,6 +7,7 @@ import QuemSomosPage from "@/components/QuemSomosPage.vue";
 import CadastroPage from "@/components/CadastroPage.vue";
 import PerfilPage from "@/components/PerfilPage.vue";
 import PetPerfil from "@/components/PetPerfil.vue";
+import AgendamentoPage from "@/components/AgendamentoPage.vue";
 
 const routes = [
     {
@@ -40,10 +41,16 @@ const routes = [
         component: PerfilPage,
     },
     {
-        path: '/perfil/perfil-pet',
+        path: '/perfil/perfil-pet/:id',
         name: 'PetPerfil',
         component: PetPerfil,
-    }
+        props: true
+    },
+    {
+        path: '/agendamento',
+        name: 'AgendamentoPage',
+        component: AgendamentoPage,
+    },
 ]
 
 const router = createRouter({

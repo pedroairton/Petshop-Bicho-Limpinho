@@ -12,7 +12,7 @@
                 PERFIL
             </router-link>
             <img class="logo" src="../assets/images/logoPetshop.png" alt="">
-            <router-link to="/">
+            <router-link to="/agendamento">
                 AGENDAMENTO
             </router-link>
             <router-link to="/quem-somos">
