@@ -8,7 +8,7 @@ nav{
     z-index: 1000;
     top: 0;
     width: 100%;
-    height: 130px;
+    height: 140px;
     background-color: #219799;
     border-bottom: solid 20px white;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -45,7 +45,10 @@ input, textarea, select{
         border: solid 2px $azul;
     }
 }
-
+a{
+    text-decoration: none;
+    color: black;
+}
 //footer
 footer{
     background-color: $azul;

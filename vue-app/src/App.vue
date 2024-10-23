@@ -65,7 +65,7 @@ body{
 section{
   margin: 0 auto;
   width: 1600px;
-  margin-top: 150px;
+  margin-top: 140px;
   background-color: white;
   display: flex;
   flex-direction: column;
