@@ -1,12 +1,12 @@
 <template>
 
-  <NavBar />
-
+  <NavBar v-if="mostrarNavbar"/>
+  
   <!-- <HomePage /> -->
 
   <router-view />
 
-  <footer :class="footerClass">
+  <footer :class="footerClass" v-if="mostrarNavbar">
     <div class="footer-infos">
       <img src="./assets/images/logoFooter.png" alt="" class="logo-footer">
       <div class="infos">
@@ -40,7 +40,7 @@ export default {
   computed: {
     mostrarNavbar(){
       // ESCONDER NAVBAR NA ROTA INSERIDA
-      return this.$route.name !== 'Login'
+      return this.$route.name !== 'GerenciadorCont' || 'GerenciadorHome'
     },
     footerClass() {
       // Adiciona a classe 'footer-login' apenas na rota 'Login'

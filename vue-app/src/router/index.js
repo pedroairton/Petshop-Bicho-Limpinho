@@ -8,6 +8,8 @@ import CadastroPage from "@/components/CadastroPage.vue";
 import PerfilPage from "@/components/PerfilPage.vue";
 import PetPerfil from "@/components/PetPerfil.vue";
 import AgendamentoPage from "@/components/AgendamentoPage.vue";
+import GerenciadorCont from "@/components/GerenciadorCont.vue";
+import GerenciadorHome from "@/components/GerenciadorHome.vue";
 
 const routes = [
     {
@@ -50,6 +52,16 @@ const routes = [
         path: '/agendamento',
         name: 'AgendamentoPage',
         component: AgendamentoPage,
+    },
+    {
+        path: '/gc',
+        name: 'GerenciadorCont',
+        component: GerenciadorCont,
+    },
+    {
+        path: '/gc/home',
+        name: 'GerenciadorHome',
+        component: GerenciadorHome,
     },
 ]
 

@@ -2,6 +2,9 @@ $azul: #219799;
 $azulClaro: #AADEF3;
 $azulClaroHover: #60C1DC;
 
+body{
+    background-color: $azulClaro;
+}
 // header
 nav{
     position: fixed;
@@ -86,4 +89,4 @@ footer{
     border-radius: 15px 15px 0 0;
 }
 
-@import './pages/index.scss', 'pages/login.scss', 'pages/quem-somos.scss', 'pages/perfil', 'pages/perfil-pet', 'pages/agendamento'
+@import './pages/index.scss', 'pages/login.scss', 'pages/quem-somos.scss', 'pages/perfil', 'pages/perfil-pet', 'pages/agendamento', 'pages/gerenciador'
