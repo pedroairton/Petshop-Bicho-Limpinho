@@ -40,7 +40,7 @@ export default {
   computed: {
     mostrarNavbar(){
       // ESCONDER NAVBAR NA ROTA INSERIDA
-      return this.$route.name !== 'GerenciadorCont' || 'GerenciadorHome'
+      return this.$route.name !== 'GerenciadorHome'
     },
     footerClass() {
       // Adiciona a classe 'footer-login' apenas na rota 'Login'

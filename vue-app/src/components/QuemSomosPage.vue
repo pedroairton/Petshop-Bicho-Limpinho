@@ -1,8 +1,5 @@
 <template>
     <section class="page-quem-somos">
-        <!-- <div class="parallax-window" data-z-index="1" data-parallax="scroll" data-image-src="../assets/images/banner-quemsomos.png">
-            <span class="titulo-quem-somos">QUEM SOMOS</span>
-        </div> -->
         <div class="banner">
             <img src="../assets/images/banner-quemsomos.png" alt="" class="img-parallax">
             <span class="titulo-quem-somos">QUEM SOMOS</span>
@@ -64,19 +61,9 @@
 </template>
 
 <script>
-import SimpleParallax from "simple-parallax-js/vanilla";
 
 export default {
     name: 'QuemSomosPage',
-    mounted() {
-        console.log(SimpleParallax)
-        var images = document.querySelectorAll('.img-parallax');
-        new SimpleParallax(images, {
-            delay: 1,
-            transition: 'cubic-bezier(0,0,0,1)',
-            scale: 1.2,
-        });
-    }
 }
 
 </script>

@@ -59,9 +59,14 @@ const routes = [
         component: GerenciadorCont,
     },
     {
-        path: '/gc/home',
+        path: '/gc/menu',
         name: 'GerenciadorHome',
         component: GerenciadorHome,
+        // children: [
+        //     {
+        //         path: ''
+        //     }
+        // ]
     },
 ]
 
