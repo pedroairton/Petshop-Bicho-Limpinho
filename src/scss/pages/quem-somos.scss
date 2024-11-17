@@ -1,0 +1,99 @@
+.page-quem-somos{
+    .parallax-window{
+        min-height: 700px;
+        width: 100%;
+        position: relative;
+        .titulo-quem-somos{
+            position: absolute;
+            z-index: 1;
+            bottom: 10%;
+            left: 50%;
+            translate: -50% 0;
+            font-size: 4rem;
+            font-weight: 700;
+            color: white;
+            text-shadow: 5px 4px 0px rgba(0, 0, 0, 0.70);
+        }
+    }
+    .banner{
+        width: 100%;
+        position: relative;
+        .titulo-quem-somos{
+            position: absolute;
+            z-index: 1;
+            bottom: 10%;
+            left: 50%;
+            translate: -50% 0;
+            font-size: 4rem;
+            font-weight: 700;
+            color: white;
+            text-shadow: 5px 4px 0px rgba(0, 0, 0, 0.70);
+        }
+        img{
+            width: 100%;
+            height: 600px;
+            object-fit: cover;
+        }
+    }
+    .conteudo-quem-somos{
+        margin: 0 auto;
+        width: 90%;
+        margin-top: 50px;
+        text-align: start;
+        display: flex;
+        flex-direction: column;
+        gap: 100px;
+        padding-bottom: 100px;
+        .petshop{
+            display: flex;
+            flex-direction: column;
+            gap: 50px;
+            .titulo-petshop{
+                font-size: 3rem;
+                font-weight: 700;
+            }
+            .desc-petshop{
+                font-size: 1.5rem;
+            }
+            .imgs-petshop{
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-between;
+            }
+        }
+        .atendimento{
+            display: flex;
+            flex-direction: column;
+            gap: 50px;
+            .titulo-atendimento{
+                font-size: 3rem;
+                font-weight: 700;
+            }
+            .desc-atendimento{
+                font-size: 1.5rem;
+            }
+            .imgs-atendimento{
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-between;
+            }
+        }
+        .equipe{
+            display: flex;
+            flex-direction: column;
+            gap: 50px;
+            .titulo-equipe{
+                font-size: 3rem;
+                font-weight: 700;
+            }
+            .desc-equipe{
+                font-size: 1.5rem;
+            }
+            .imgs-equipe{
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-around;
+            }
+        }
+    }
+}
