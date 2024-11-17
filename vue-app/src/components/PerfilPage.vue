@@ -3,7 +3,7 @@
         <div class="cabecalho-perfil">
             <img src="../assets/images/luisamell.webp" alt="" class="img-perfil">
             <div class="infos-perfil">
-                <h1 class="nome">Luisa Mell CEO do IBAMA</h1>
+                <h1 class="nome">Luisa Mell</h1>
                 <span class="email">luisamell@ibama.com</span>
                 <span class="telefone">(81) 4002-8922</span>
                 <h1 class="total-pets">Pets Registrados: 2</h1>
@@ -47,8 +47,8 @@
         data() {
             return {
                 pets: [
-                    {id: 1, nome: 'Rengar', raca: 'Draktharr', idade: '2 anos', peso: '4 kg', sexo: 'Macho', tipo: 'Gato'},
-                    {id: 2, nome: 'Nasus', raca: 'Sterak', idade: '6 anos', peso: '31 kg', sexo: 'Macho', tipo: 'Cachorro'},
+                    {id: 1, nome: 'Rex', raca: 'Siamês', idade: '2 anos', peso: '4 kg', sexo: 'Macho', tipo: 'Gato'},
+                    {id: 2, nome: 'Ted', raca: 'Pitbull', idade: '6 anos', peso: '31 kg', sexo: 'Macho', tipo: 'Cachorro'},
                 ]
             }
         },
@@ -63,9 +63,9 @@
                 }
             },
             petImagem(nome) {
-                if (nome === 'Nasus') {
+                if (nome === 'Ted') {
                     return require("../assets/images/pet2.png")
-                } else if (nome === 'Rengar') {
+                } else if (nome === 'Rex') {
                     return require("../assets/images/pet1.png")
                 } else {
                     console.log('default')
