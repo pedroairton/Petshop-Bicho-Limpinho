@@ -1,0 +1,71 @@
+.page-login{
+    margin-top: 0;
+    background-color: $azulClaro;
+    .login-container{
+        margin: 250px 0;
+        border-radius: 15px;
+        background-color: $azul;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 50px;
+        width: 100%;
+        padding: 2rem 0;
+        .titulo{
+            font-size: 3rem;
+            color: white;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        .input{
+            width: 700px;
+            height: 65px;
+            border-radius: 15px;
+            border: none;
+            padding-left: 1rem;
+            font-size: 1.5rem;
+            background-color: white;
+            &::placeholder{
+                font-size: 1.5rem;
+                color: #b0b0b0;
+                font-family: "Grandstander", cursive;
+            }
+        }
+        .btn-login{
+            width: 300px;
+            height: 65px;
+            background-color: $azulClaro;
+            border-radius: 15px;
+            border: solid 1px $azul;
+            transition: .3s;
+            font-size: 2rem;
+            &:hover{
+                background-color: $azulClaroHover;
+                // color: white;
+                border: solid 1px $azulClaro;
+            }
+        }
+        .cadastro-login{
+            color: white;
+            font-size: 1.75rem;
+            transition: .2s;
+            text-decoration: none;
+            &:hover{
+                text-decoration: underline;
+                color: $azulClaro;
+            }
+        }
+        .redefinir-senha{
+            margin-top: 200px;
+            color: #f0f0f0;
+            font-size: 1.75rem;
+            transition: .2s;
+            text-decoration: none;
+            &:hover{
+                text-decoration: underline;
+                color: $azulClaro;
+            }
+        }
+    }
+}

@@ -1,0 +1,89 @@
+.page-perfil{
+    display: flex;
+    flex-direction: column;
+    .cabecalho-perfil{
+        margin-top: 100px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 90%;
+        .img-perfil{
+            width: 450px;
+            aspect-ratio: 1;
+            border-radius: 50%;
+        }
+        .infos-perfil{
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+            gap: 2.5rem;
+            h1{
+                margin: 0;
+            }
+            .nome{
+                font-size: 2.5rem;
+                font-weight: 700;
+            }
+            .email, .telefone{
+                color: #b0b0b0;
+                font-size: 1.5rem;
+            }
+            .total-pets{
+                font-size: 1.75rem;
+                font-weight: 700;
+            }
+        }
+    }
+    h1.titulo-pets{
+        font-size: 3rem;
+        width: 90%;
+        border-bottom: solid 1px black;
+
+    }
+    .pet {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 90%;
+        padding-bottom: 90px;
+        &:not(:last-child){
+            border-bottom: solid 1px black;
+        }
+        .img-pet{
+            width: 450px;
+            aspect-ratio: 1;
+            border-radius: 50%;
+            border: solid 1px black;
+        }
+        .icon-pet{
+            opacity: 0.25;
+        }
+        .infos-pet{
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+            gap: 2.5rem;
+            
+            h1.nome-pet {
+                margin: 0;
+                font-size: 2.5rem;
+                font-weight: 700;
+            }   
+            .raca, .idade, .peso, .sexo{
+                font-size: 1.5rem;
+            }
+            .btn-detalhes{
+                background-color: $azulClaro;
+                border-radius: 15px;
+                border: none;
+                font-size: 1.5rem;
+                width: 250px;
+                height: 60px;
+                transition: .3s;
+                &:hover{
+                    background-color: $azulClaroHover;
+                }
+            }
+        }
+    }
+}
